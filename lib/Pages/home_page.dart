@@ -48,7 +48,7 @@ class HomePageState extends State<HomePage> {
                   ], begin: Alignment.topCenter, end: Alignment.bottomCenter)),
                   child: Padding(
                     padding: const EdgeInsets.symmetric(
-                        vertical: 15, horizontal: 30),
+                        vertical: 15, horizontal: 20),
                     child: Row(
                       mainAxisAlignment: MainAxisAlignment.spaceBetween,
                       children: [
@@ -58,7 +58,7 @@ class HomePageState extends State<HomePage> {
                         ),
                         Text('VENUES NEAR YOU',
                             style: GoogleFonts.montserrat(
-                                fontWeight: FontWeight.bold, fontSize: 20)),
+                                fontWeight: FontWeight.bold, fontSize: 18)),
                         InkWell(
                           onTap: () {
                             Navigator.push(
@@ -79,19 +79,19 @@ class HomePageState extends State<HomePage> {
                   height: 10,
                 ),
                 Padding(
-                  padding: const EdgeInsets.symmetric(horizontal: 30),
+                  padding: const EdgeInsets.symmetric(horizontal: 20),
                   child: Container(
                     decoration: BoxDecoration(
                         borderRadius: BorderRadius.circular(50),
                         color: Colors.white),
                     child: Padding(
-                      padding: const EdgeInsets.symmetric(horizontal: 20),
+                      padding: const EdgeInsets.symmetric(horizontal: 10),
                       child: TextField(
                         
                         decoration: InputDecoration(
                           hintStyle: TextStyle(
+                            fontSize: 14,
                             fontWeight: FontWeight.bold,
-
                           ),
                             hintText: 'e.g. burger, fries, pasta',
                             prefixIcon: Icon(
@@ -108,7 +108,7 @@ class HomePageState extends State<HomePage> {
                   height: 20,
                 ),
                 Padding(
-                  padding: EdgeInsets.symmetric(horizontal: 30),
+                  padding: EdgeInsets.symmetric(horizontal: 20),
                   child: Text(
                     '1100 S FLOWER St',
                     style: TextStyle(

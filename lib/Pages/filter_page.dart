@@ -28,7 +28,7 @@ class _FilterPageState extends State<FilterPage> {
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
             Padding(
-              padding: const EdgeInsets.symmetric(vertical: 15, horizontal: 30),
+              padding: const EdgeInsets.symmetric(vertical: 15, horizontal: 20),
               child: Row(
                 crossAxisAlignment: CrossAxisAlignment.end,
                 mainAxisAlignment: MainAxisAlignment.spaceBetween,
@@ -39,13 +39,13 @@ class _FilterPageState extends State<FilterPage> {
                     },
                     child: Text(
                       'Cancel',
-                      style: TextStyle(color: Colors.grey, fontSize: 18),
+                      style: TextStyle(color: Colors.grey, fontSize: 16),
                     ),
                   ),
                   Text('SEARCH FILTER',
                       style: GoogleFonts.montserrat(
                               fontWeight: FontWeight.bold
-                              ,fontSize: 20
+                              ,fontSize: 18
                             )),
                   InkWell(
                     onTap: () {
@@ -53,14 +53,14 @@ class _FilterPageState extends State<FilterPage> {
                     },
                     child: Text(
                       'Apply',
-                      style: TextStyle(fontSize: 18, fontWeight: FontWeight.bold),
+                      style: TextStyle(fontSize: 16, fontWeight: FontWeight.bold),
                     ),
                   ),
                 ],
               ),
             ),
             Padding(
-              padding: EdgeInsets.symmetric(vertical: 20, horizontal: 30),
+              padding: EdgeInsets.symmetric(vertical: 20, horizontal: 20),
               child: Text(
                 "Applied filters",
                 style: _textStyle,
@@ -84,14 +84,14 @@ class _FilterPageState extends State<FilterPage> {
               ),
             ),
             Padding(
-              padding: EdgeInsets.symmetric(horizontal: 30),
+              padding: EdgeInsets.symmetric(horizontal: 20),
               child: Divider(
                 thickness: 1,
                 height: 40,
               ),
             ),
             Padding(
-              padding: EdgeInsets.symmetric(vertical: 20, horizontal: 30),
+              padding: EdgeInsets.symmetric(vertical: 20, horizontal: 20),
               child: Text(
                 "Ethnic Cuisines",
                 style: _textStyle,
@@ -130,14 +130,14 @@ class _FilterPageState extends State<FilterPage> {
                   ],
                 )),
             Padding(
-              padding: EdgeInsets.symmetric(horizontal: 30),
+              padding: EdgeInsets.symmetric(horizontal: 20),
               child: Divider(
                 thickness: 1,
                 height: 40,
               ),
             ),
             Padding(
-              padding: EdgeInsets.symmetric(vertical: 20, horizontal: 30),
+              padding: EdgeInsets.symmetric(vertical: 20, horizontal: 20),
               child: Text(
                 "Popular food",
                 style: _textStyle,
@@ -176,14 +176,14 @@ class _FilterPageState extends State<FilterPage> {
                   ],
                 )),
             Padding(
-              padding: EdgeInsets.symmetric(horizontal: 30),
+              padding: EdgeInsets.symmetric(horizontal: 20),
               child: Divider(
                 thickness: 1,
                 height: 40,
               ),
             ),
             Padding(
-              padding: EdgeInsets.symmetric(vertical: 10, horizontal: 30),
+              padding: EdgeInsets.symmetric(vertical: 10, horizontal: 20),
               child: Column(
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
