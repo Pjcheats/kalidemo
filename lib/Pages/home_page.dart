@@ -121,7 +121,7 @@ class HomePageState extends State<HomePage> {
                   height: 4,
                 ),
                 Padding(
-                  padding: EdgeInsets.symmetric(horizontal: 30),
+                  padding: EdgeInsets.symmetric(horizontal: 20),
                   child: Text(
                     'Los Angeles, CA',
                     style: TextStyle(fontWeight: FontWeight.bold, fontSize: 16),
